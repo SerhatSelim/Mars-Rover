@@ -44,9 +44,14 @@ namespace MarsRover.Business.Concrete
                     }
                 }
 
+                return rover.Coorditane.X + " " + rover.Coorditane.Y + " " + rover.DirectionType; ;
+
+            }
+            else
+            {
+                return "Move dose not available!";
             }
 
-            return rover.Coorditane.X + " " + rover.Coorditane.Y + " " + rover.DirectionType; ;
         }
 
 
